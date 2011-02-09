@@ -40,6 +40,13 @@ class BookmarksController < ApplicationController
   # POST /bookmarks
   # POST /bookmarks.xml
   def create
+    url = params[:bookmark][:url]
+    #get title from the URL
+    params[:bookmark][:title] = get_title(url)
+    #get shortener by tinyurl
+    params[:bookmark][:shortener] = get_tinyurl(url)
+    #get site_id
+    params[:bookmark][:site_id] = get_site(url)
     @bookmark = Bookmark.new(params[:bookmark])
 
     respond_to do |format|
@@ -79,5 +86,31 @@ class BookmarksController < ApplicationController
       format.html { redirect_to(bookmarks_url) }
       format.xml  { head :ok }
     end
+  end
+
+  private
+
+  def get_tinyurl(url)
+    require 'open-uri'
+    file = open("http://tinyurl.com/api-create.php?url=#{url}", "r")
+    file.read
+  end
+
+  def get_site(url)
+    #At first I was going to do the following with regex
+    #but then realised this was a much better way of doing it
+    require 'uri'
+    site_url = URI.parse(url)
+    site = Site.find_by_url("http://#{site_url.host}/")
+    site = Site.create(:url => "http://#{site_url.host}/", :title => get_title("http://#{site_url.host}/")) if site.nil?
+    site
+  end
+
+  def get_title(url)
+    require 'rubygems'
+    require 'mechanize'
+    agent = WWW::Mechanize.new
+    agent.user_agent_alias = 'Mac Safari'
+    agent.get(url).title
   end
 end
