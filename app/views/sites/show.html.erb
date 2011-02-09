@@ -1,9 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
+<h2>
   <%= @site.title %>
-</p>
+</h2>
 
 <p>
   <b>Url:</b>
@@ -11,5 +10,19 @@
 </p>
 
 
-<%= link_to 'Edit', edit_site_path(@site) %> |
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Url</th>
+  </tr>
+<% @site.bookmarks.each do |bookmark| %>
+  <tr>
+    <td><%= link_to bookmark.title, bookmark %></td>
+    <td><%= bookmark.url %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
 <%= link_to 'Back', sites_path %>
