@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BookmarkingApp</title>
+  <title>Bookmarking Application</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<%= yield %>
+<header>
+	<a href="/"><img src="/images/logo.png" alt="Bookmarker Logo" /></a>
+	<ul>
+		<li><%= link_to 'Home', root_path %></li>
+		<li><%= link_to 'New boomkark', new_bookmark_path %></li>
+		<li><%= link_to 'List Sites', sites_path %></li>
+	</ul>
+</header>
+<div id="main"><%= yield %></div>
 
 </body>
 </html>

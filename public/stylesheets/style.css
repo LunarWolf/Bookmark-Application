@@ -1,0 +1,6 @@
+body{background-color:lightblue;}
+img{border:none;}
+header,#main{width:700px;margin:auto;display:block;}
+header a:hover{background:none;}
+ul{list-style:none;float:right;margin-top:50px;}
+li{display:inline;}
