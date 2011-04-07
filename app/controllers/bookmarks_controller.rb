@@ -107,7 +107,6 @@ class BookmarksController < ApplicationController
   end
 
   def get_title(url)
-    require 'rubygems'
     require 'mechanize'
     agent = WWW::Mechanize.new
     agent.user_agent_alias = 'Mac Safari'
