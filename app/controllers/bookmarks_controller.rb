@@ -43,8 +43,6 @@ class BookmarksController < ApplicationController
     url = params[:bookmark][:url]
     #get title from the URL
     params[:bookmark][:title] = get_title(url)
-    #get shortener by tinyurl
-    params[:bookmark][:shortener] = get_tinyurl(url)
     #get site_id
     params[:bookmark][:site_id] = get_site(url)
     @bookmark = Bookmark.new(params[:bookmark])
@@ -89,12 +87,6 @@ class BookmarksController < ApplicationController
   end
 
   private
-
-  def get_tinyurl(url)
-    require 'open-uri'
-    file = open("http://tinyurl.com/api-create.php?url=#{url}", "r")
-    file.read
-  end
 
   def get_site(url)
     #At first I was going to do the following with regex
