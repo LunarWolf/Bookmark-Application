@@ -8,4 +8,8 @@ class Bookmark < ActiveRecord::Base
     require 'open-uri'
     open("http://tinyurl.com/api-create.php?url=#{this.url}", "r").read
   end
+  
+  def title
+    Mechanize.new.get(this.url).title
+  end
 end

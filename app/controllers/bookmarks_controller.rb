@@ -40,11 +40,8 @@ class BookmarksController < ApplicationController
   # POST /bookmarks
   # POST /bookmarks.xml
   def create
-    url = params[:bookmark][:url]
-    #get title from the URL
-    params[:bookmark][:title] = get_title(url)
     #get site_id
-    params[:bookmark][:site_id] = get_site(url)
+    params[:bookmark][:site_id] = get_site(params[:bookmark][:url])
     @bookmark = Bookmark.new(params[:bookmark])
 
     respond_to do |format|
@@ -92,16 +89,10 @@ class BookmarksController < ApplicationController
     #At first I was going to do the following with regex
     #but then realised this was a much better way of doing it
     require 'uri'
-    site_url = URI.parse(url)
-    site = Site.find_by_url("http://#{site_url.host}/")
-    site = Site.create(:url => "http://#{site_url.host}/", :title => get_title("http://#{site_url.host}/")) if site.nil?
-    site
-  end
-
-  def get_title(url)
-    require 'mechanize'
-    agent = WWW::Mechanize.new
-    agent.user_agent_alias = 'Mac Safari'
-    agent.get(url).title
+    #site_url = URI.parse(url)
+    #site = Site.find_by_url("http://#{site_url.host}/")
+    #site = Site.create(:url => "http://#{site_url.host}/")) if site.nil?
+    #site
+    Site.find_or_create_by_url("http://#{URI.parse(url).host}/")
   end
 end
