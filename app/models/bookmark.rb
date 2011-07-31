@@ -6,10 +6,14 @@ class Bookmark < ActiveRecord::Base
   
   def tinyurl
     require 'open-uri'
-    open("http://tinyurl.com/api-create.php?url=#{this.url}", "r").read
+    open("http://tinyurl.com/api-create.php?url=#{self.url}").read
   end
   
   def title
-    Mechanize.new.get(this.url).title
+    Mechanize.new.get(self.url).title
+  end
+  
+  def tag_list
+    self.tags.split(/, ?/)
   end
 end

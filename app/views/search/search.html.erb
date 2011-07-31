@@ -1,0 +1,9 @@
+Search results:
+<ol>
+  <% @bookmarks.each do |bookmark| %>
+  <li><a href="/bookmarks/<%= bookmark.id %>"><%= bookmark.title %></a></li>
+  <% end %>
+  <% if @bookmarks.length == 0 %>
+  No Search results found
+  <% end %>
+</ol>

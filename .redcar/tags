@@ -1,0 +1,240 @@
+1312071076
+AddSiteIdToBookmark	/home/afal/Bookmark-Application/db/migrate/20110209163708_add_site_id_to_bookmark.rb	class AddSiteIdToBookmark 
+Application	/home/afal/Bookmark-Application/config/application.rb	  class Application 
+ApplicationController	/home/afal/Bookmark-Application/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/home/afal/Bookmark-Application/app/helpers/application_helper.rb	module ApplicationHelper
+Bookmark	/home/afal/Bookmark-Application/app/models/bookmark.rb	class Bookmark 
+BookmarkTest	/home/afal/Bookmark-Application/test/unit/bookmark_test.rb	class BookmarkTest 
+BookmarkingApp	/home/afal/Bookmark-Application/config/application.rb	module BookmarkingApp
+BookmarksController	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	class BookmarksController 
+BookmarksControllerTest	/home/afal/Bookmark-Application/test/functional/bookmarks_controller_test.rb	class BookmarksControllerTest 
+BookmarksHelper	/home/afal/Bookmark-Application/app/helpers/bookmarks_helper.rb	module BookmarksHelper
+BookmarksHelperTest	/home/afal/Bookmark-Application/test/unit/helpers/bookmarks_helper_test.rb	class BookmarksHelperTest 
+BrowsingTest	/home/afal/Bookmark-Application/test/performance/browsing_test.rb	class BrowsingTest 
+CreateBookmarks	/home/afal/Bookmark-Application/db/migrate/20110209163254_create_bookmarks.rb	class CreateBookmarks 
+CreateSites	/home/afal/Bookmark-Application/db/migrate/20110209163751_create_sites.rb	class CreateSites 
+SearchController	/home/afal/Bookmark-Application/app/controllers/search_controller.rb	class SearchController 
+Site	/home/afal/Bookmark-Application/app/models/site.rb	class Site 
+SiteTest	/home/afal/Bookmark-Application/test/unit/site_test.rb	class SiteTest 
+SitesController	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	class SitesController 
+SitesControllerTest	/home/afal/Bookmark-Application/test/functional/sites_controller_test.rb	class SitesControllerTest 
+SitesHelper	/home/afal/Bookmark-Application/app/helpers/sites_helper.rb	module SitesHelper
+SitesHelperTest	/home/afal/Bookmark-Application/test/unit/helpers/sites_helper_test.rb	class SitesHelperTest 
+Str	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function Str(key, holder, stack)
+TestCase	/home/afal/Bookmark-Application/test/test_helper.rb	class ActiveSupport::TestCase
+Type	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function Type(o)
+abs	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function abs()
+absolutize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function absolutize(element)
+addMethods	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function addMethods(source)
+addText	/home/afal/Bookmark-Application/public/javascripts/controls.js	function addText(mode, condition)
+all	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function all(iterator, context)
+any	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function any(iterator, context)
+argumentNames	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function argumentNames()
+bind	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function bind(context)
+bindAsEventListener	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function bindAsEventListener(context)
+blank	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function blank()
+camelize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function camelize()
+capitalize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function capitalize()
+ceil	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function ceil()
+checkDeficiency	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function checkDeficiency(tagName)
+checkReadyState	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function checkReadyState()
+clear	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function clear()
+clone	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function clone()
+clone	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function clone()
+clone	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function clone(object)
+collect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function collect(iterator, context)
+compact	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function compact()
+concat	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function concat()
+copy	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def create
+create	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def create
+create	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function create()
+cssNameFor	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function cssNameFor(key)
+cumulativeOffset	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function cumulativeOffset(element)
+cumulativeScrollOffset	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
+curry	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function curry()
+dasherize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function dasherize()
+defer	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function defer()
+define	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function define(D)
+delay	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function delay(timeout)
+destroy	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def destroy
+destroy	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def destroy
+detect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function detect(iterator, context)
+dirCheck	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
+dirNodeCheck	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
+dispatch	/home/afal/Bookmark-Application/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	/home/afal/Bookmark-Application/db/migrate/20110209163254_create_bookmarks.rb	  def self.down
+down	/home/afal/Bookmark-Application/db/migrate/20110209163708_add_site_id_to_bookmark.rb	  def self.down
+down	/home/afal/Bookmark-Application/db/migrate/20110209163751_create_sites.rb	  def self.down
+each	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function each(iterator)
+each	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function each(iterator, context)
+eachSlice	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
+edit	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def edit
+edit	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def edit
+element	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function element(event)
+empty	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function empty()
+endsWith	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function endsWith(pattern)
+escapeHTML	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function escapeHTML()
+evalJSON	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function evalJSON(sanitize)
+evalScripts	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function evalScripts()
+extend	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function extend(destination, source)
+extend	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function extend(tagName)
+extendElementWith	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function extendElementWith(element, methods)
+extendElements	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function extendElements(elements)
+extractScripts	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function extractScripts()
+fallback	/home/afal/Bookmark-Application/public/javascripts/controls.js	function fallback(name, expr)
+find	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function find(elements, expression, index)
+findAll	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function findAll(iterator, context)
+findDOMClass	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function findDOMClass(tagName)
+findElement	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function findElement(event, expression)
+fire	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
+fireContentLoadedEvent	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function fireContentLoadedEvent()
+first	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function first()
+flatten	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function flatten()
+floor	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function floor()
+get	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function get(key)
+getDimensions	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function getDimensions(element)
+getLayout	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function getLayout(element, preCompute)
+getOffsetParent	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function getOffsetParent(element)
+getPixelValue	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function getPixelValue(value, property)
+getRootElement	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function getRootElement()
+get_site	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def get_site(url)
+get_site	/home/afal/Bookmark-Application/app/helpers/bookmarks_helper.rb	  def get_site(url)
+grep	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function grep(filter, iterator, context)
+gsub	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function gsub(pattern, replacement)
+handleMethod	/home/afal/Bookmark-Application/public/javascripts/rails.js	function handleMethod(element)
+handleRemote	/home/afal/Bookmark-Application/public/javascripts/rails.js	function handleRemote(element)
+inGroupsOf	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
+include	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function include(object)
+include	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function include(pattern)
+include	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function include(value)
+index	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def index
+index	/home/afal/Bookmark-Application/app/controllers/search_controller.rb	  def index
+index	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def index
+index	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function index(value)
+indexOf	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function indexOf(item, i)
+initialize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function initialize(object)
+initialize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function initialize(start, end, exclusive)
+inject	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inject(memo, iterator, context)
+inspect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inspect()
+inspect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inspect()
+inspect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inspect()
+inspect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inspect(object)
+inspect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function inspect(useDoubleQuotes)
+interpolate	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function interpolate(object, pattern)
+intersect	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function intersect(array)
+invoke	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function invoke(method)
+isArray	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isArray(object)
+isBody	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isBody(element)
+isDetached	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isDetached(element)
+isDisplayed	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isDisplayed(element)
+isElement	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isElement(object)
+isEventSupported	/home/afal/Bookmark-Application/public/javascripts/rails.js	function isEventSupported(eventName)
+isForm	/home/afal/Bookmark-Application/public/javascripts/rails.js	function isForm(element)
+isFunction	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isFunction(object)
+isHash	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isHash(object)
+isInput	/home/afal/Bookmark-Application/public/javascripts/rails.js	function isInput(element)
+isJSON	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isJSON()
+isLeftClick	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isLeftClick(event)   { return _isButton(event, 0)
+isMiddleClick	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isMiddleClick(event) { return _isButton(event, 1)
+isNumber	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isNumber(object)
+isRightClick	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isRightClick(event)  { return _isButton(event, 2)
+isString	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isString(object)
+isUndefined	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function isUndefined(object)
+iter	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function iter(name)
+keys	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function keys()
+keys	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function keys(object)
+klass	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function klass()
+last	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function last()
+lastIndexOf	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function lastIndexOf(item, i)
+match	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function match()
+match	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function match(element, selector)
+max	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function max(iterator, context)
+measure	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function measure(element, property)
+merge	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function merge(array, args)
+merge	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function merge(object)
+methodize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function methodize()
+min	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function min(iterator, context)
+new	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def new
+new	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def new
+observe	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function observe(element, eventName, handler)
+on	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
+parseColor	/home/afal/Bookmark-Application/public/javascripts/effects.js	function parseColor(color)
+parseJSON	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function parseJSON()
+partition	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function partition(iterator, context)
+pluck	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function pluck(property)
+pointer	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function pointer(event)
+pointerX	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function pointerX(event)
+pointerY	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function pointerY(event)
+pollDoScroll	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function pollDoScroll()
+positionedOffset	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function positionedOffset(element)
+prepareReplacement	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function prepareReplacement(replacement)
+purgeElement	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function purgeElement(element)
+reject	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function reject(iterator, context)
+relativize	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function relativize(element)
+reverse	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function reverse(inline)
+round	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function round()
+scan	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function scan(pattern, iterator)
+search	/home/afal/Bookmark-Application/app/controllers/search_controller.rb	  def search
+select	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function select()
+select	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function select(selector, scope)
+set	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function set(key, value)
+show	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def show
+show	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def show
+size	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function size()
+size	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function size()
+sortBy	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function sortBy(iterator, context)
+startsWith	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function startsWith(pattern)
+stop	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function stop(event)
+stopObserving	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function stopObserving(element, eventName, handler)
+stringify	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function stringify(object)
+strip	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function strip()
+stripAlpha	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function stripAlpha(filter)
+stripScripts	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function stripScripts()
+stripTags	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function stripTags()
+sub	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function sub(pattern, replacement, count)
+subclass	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function subclass()
+succ	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function succ()
+succ	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function succ()
+tag_list	/home/afal/Bookmark-Application/app/models/bookmark.rb	  def tag_list
+test_homepage	/home/afal/Bookmark-Application/test/performance/browsing_test.rb	  def test_homepage
+times	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function times(count)
+times	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function times(iterator, context)
+tinyurl	/home/afal/Bookmark-Application/app/models/bookmark.rb	  def tinyurl
+title	/home/afal/Bookmark-Application/app/models/bookmark.rb	  def title
+title	/home/afal/Bookmark-Application/app/models/site.rb	  def title
+toArray	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toArray()
+toArray	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toArray()
+toCSSPixels	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toCSSPixels(number)
+toColorPart	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toColorPart()
+toDecimal	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toDecimal(pctString)
+toHTML	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toHTML(object)
+toISOString	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toISOString()
+toJSON	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toJSON()
+toJSON	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toJSON(value)
+toObject	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toObject()
+toPaddedString	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toPaddedString(length, radix)
+toQueryPair	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toQueryPair(key, value)
+toQueryParams	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toQueryParams(separator)
+toQueryString	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toQueryString()
+toQueryString	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function toQueryString(object)
+truncate	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function truncate(length, truncation)
+underscore	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function underscore()
+unescapeHTML	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function unescapeHTML()
+unfilterJSON	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function unfilterJSON(filter)
+uniq	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function uniq(sorted)
+unset	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function unset(key)
+up	/home/afal/Bookmark-Application/db/migrate/20110209163254_create_bookmarks.rb	  def self.up
+up	/home/afal/Bookmark-Application/db/migrate/20110209163708_add_site_id_to_bookmark.rb	  def self.up
+up	/home/afal/Bookmark-Application/db/migrate/20110209163751_create_sites.rb	  def self.up
+update	/home/afal/Bookmark-Application/app/controllers/bookmarks_controller.rb	  def update
+update	/home/afal/Bookmark-Application/app/controllers/sites_controller.rb	  def update
+update	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function update(array, args)
+update	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function update(element, content)
+update	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function update(object)
+values	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function values()
+values	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function values(object)
+viewportOffset	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function viewportOffset(forElement)
+without	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function without()
+wrap	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function wrap(wrapper)
+zip	/home/afal/Bookmark-Application/public/javascripts/prototype.js	function zip()

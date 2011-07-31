@@ -14,7 +14,7 @@
 
 <p>
   <b>Tags:</b>
-  <%= @bookmark.tags %>
+  <%= render 'tags' %>
 </p>
 
 <%= link_to 'Back', site_path(get_site(@bookmark.url)) %>

@@ -86,13 +86,7 @@ class BookmarksController < ApplicationController
   private
 
   def get_site(url)
-    #At first I was going to do the following with regex
-    #but then realised this was a much better way of doing it
     require 'uri'
-    #site_url = URI.parse(url)
-    #site = Site.find_by_url("http://#{site_url.host}/")
-    #site = Site.create(:url => "http://#{site_url.host}/")) if site.nil?
-    #site
     Site.find_or_create_by_url("http://#{URI.parse(url).host}/")
   end
 end
